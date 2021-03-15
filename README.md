@@ -39,7 +39,7 @@ The main executable to setup a device as a Retail Node Installer is `build.sh`. 
 
   - **registry** - optional, used for caching Docker images
 
-[Clear Linux](https://github.com/intel/rni-profile-base-clearlinux), [Ubuntu](https://github.com/intel/rni-profile-base-ubuntu) and [RancherOS](https://github.com/intel/rni-profile-base-rancheros) are provided as example profiles.
+[Clear Linux](https://github.com/intel/rni-profile-base-clearlinux), [Ubuntu](https://github.com/intel/rni-profile-base-ubuntu), [RancherOS](https://github.com/intel/rni-profile-base-rancheros) and [Windows](https://github.com/intel/rni-profile-base-windows) are provided as example profiles.
 
 This document will guide you through the following:
 
