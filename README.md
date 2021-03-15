@@ -59,7 +59,7 @@ This document will guide you through the following:
 
 The following is required:
 
-* **Profile** - The git URL for at least one profile is required. You will be asked to paste the URL into the configuration file in the following instructions. [Clear Linux](https://github.com/intel/rni-profile-base-clearlinux), [Ubuntu](https://github.com/intel/rni-profile-base-ubuntu) and [RancherOS](https://github.com/intel/rni-profile-base-rancheros) are provided as example profiles.
+* **Profile** - The git URL for at least one profile is required. You will be asked to paste the URL into the configuration file in the following instructions. [Clear Linux](https://github.com/intel/rni-profile-base-clearlinux), [Ubuntu](https://github.com/intel/rni-profile-base-ubuntu), [RancherOS](https://github.com/intel/rni-profile-base-rancheros) and [Windows](https://github.com/intel/rni-profile-base-windows) are provided as example profiles.
 
 * **Retail Node Installer** - Minimum Recommended Hardware or VM with 2 CPUs, 20GB HD and 2GB of RAM, running any Linux Distro (headless recommended) that supports Docker
   * `docker` 18.09.3 or greater
@@ -225,6 +225,8 @@ For any other problems that you may encounter during deployment, please consult 
 This section is not required for setting up an Retail Node Installer and building target devices, but it provides valuable information about profiles, templating, and file downloads that will help you build your own profiles.
 
 **Kernel arguments** can be specified in a file called `conf/config.yml` _in the profile's repository_, **not in Retail Node Installer itself**, like this:
+
+To make use of **Windows Profile** certain prerequisites need to be met. For more details please [see this](#https://github.com/intel/rni-profile-base-windows/blob/master/README.md).
 
 ```yaml
 ---
