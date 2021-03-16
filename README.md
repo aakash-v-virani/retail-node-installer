@@ -224,7 +224,7 @@ For any other problems that you may encounter during deployment, please consult 
 
 This section is not required for setting up an Retail Node Installer and building target devices, but it provides valuable information about profiles, templating, and file downloads that will help you build your own profiles.
 
-*To make use of **Windows Profile** certain prerequisites need to be met. For more details please [see this](#https://github.com/intel/rni-profile-base-windows/blob/master/README.md).*
+*To make use of **Windows Profile** certain prerequisites need to be met. For more details please [see this](#https://github.com/intel/rni-profile-base-windows/blob/main/docs/01_Prerequisites.md).*
 
 **Kernel arguments** can be specified in a file called `conf/config.yml` _in the profile's repository_, **not in Retail Node Installer itself**, like this:
 
